@@ -1,0 +1,95 @@
+@import "https://unpkg.com/aos@next/dist/aos.css";
+body {
+  background-color: rgb(19, 20, 23);
+  color: rgb(87, 208, 167);
+}
+.row {
+  margin: 30px;
+}
+h1 {
+  margin: 20px;
+  color: rgb(78, 121, 251);
+}
+h2 {
+  margin: 15px;
+}
+h3 {
+  margin: 10px;
+}
+
+p {
+  font-size: 17px;
+  font-weight: bold;
+}
+.number {
+  font-size: 20px;
+  color: rgb(253, 198, 45);
+}
+.yesOrno {
+  font-size: 20px;
+}
+h3 {
+  font-size: 20px;
+}
+.alert {
+  color: rgb(253, 198, 45);
+}
+input {
+  padding: 7px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 20px;
+}
+.btn {
+  margin: 15px;
+  padding: 8px 16px;
+  border-radius: 10px;
+  background: rgb(247, 93, 117);
+  border: 1px solid rgb(253, 198, 45);
+  box-shadow: -4px 4px 0 0 rgb(253, 198, 45);
+}
+button:focus {
+  display: none;
+}
+.col-4 {
+  text-align: center;
+  padding: 10px 20px;
+  border: 5px whitesmoke dashed;
+}
+.middle {
+  visibility: hidden;
+}
+.middle-display {
+  visibility: visible;
+}
+.end {
+  visibility: hidden;
+}
+.end h1 {
+  margin: 170px 10px;
+  color: rgb(19, 20, 23);
+  padding: 15px;
+  font-size: 34px;
+  background: rgb(247, 93, 117);
+  border: 1px solid rgb(253, 198, 45);
+  box-shadow: -4px 4px 0 0 rgb(253, 198, 45);
+}
+.end-display {
+  visibility: visible;
+}
+.links-socialMidia {
+  display: flex;
+  margin: 50px 140px 0px;
+  justify-content: space-between;
+}
+.social-midia a {
+  text-align: center;
+  font-size: 15px;
+  text-decoration: none;
+  color: whitesmoke;
+}
+.social-midia i {
+  display: block;
+  font-size: 20px;
+  color: whitesmoke;
+}
